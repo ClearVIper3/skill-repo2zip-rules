@@ -33,7 +33,7 @@
 
 ## 如何使用
 
-1. 把 [`skill-打包禁入规则.md`](./skill-打包禁入规则.md) 作为 cursor / claude-code / codebuddy 的 rule 文件加载。
+1. 把 [`skill-repo2zip-rules.md`](./skill-repo2zip-rules.md) 作为 cursor / claude-code / codebuddy 的 rule 文件加载。
 2. 在你给 agent 的打包指令里引用这份规则：
 
    > 打包前 MUST 加载并遵守 `skill-repo2zip-rules`。任一规则违反 → 中止打包并报错。
